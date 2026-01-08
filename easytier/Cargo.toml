@@ -349,7 +349,7 @@ tracing = ["tokio/tracing", "dep:console-subscriber"]
 # generate a .deb in target/debian/ with the command: cargo deb --no-build
 name = "easytier"
 assets = [
-  { source = "target/release/easytier-core", dest = "/usr/lib/easytier/"", mode = "755" },
+  { source = "target/release/easytier-core", dest = "/usr/lib/easytier/", mode = "755" },
   { source = "target/release/easytier-cli", dest = "/usr/lib/easytier/", mode = "755"  },
   { source = "target/release/easytier-cli.bash", dest = "/usr/share/bash-completion/completions/easytier-cli", mode = "644" },
   { source = "target/release/easytier-core.bash", dest = "/usr/share/bash-completion/completions/easytier-core", mode = "644" },
